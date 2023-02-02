@@ -8,6 +8,22 @@ Rewritten in vlang for fun!
 
 run `make`
 
-## Docker
+## Running
 
-There is a docker container
+### Configuration
+
+All configuration goes trough 3 env variables
+
+| | |
+|-|-|
+| YDNS_USER | Your YDNS username |
+| YDNS_PASS | Your YDNS password |
+| YDNS_DOMAINS | A `;` separated list of domains you want to update |
+
+### Running
+
+When the variables have been set you can run using `ddns-ydns`
+
+### Deployment
+
+I have deployed this in a podman container. A plain service should also work :)
