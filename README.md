@@ -14,11 +14,11 @@ run `make`
 
 All configuration goes trough 3 env variables
 
-| | |
-|-|-|
-| YDNS_USER | Your YDNS username |
-| YDNS_PASS | Your YDNS password |
-| YDNS_DOMAINS | A `;` separated list of domains you want to update |
+| Variable       | Description                                        |
+| -------------- | -------------------------------------------------- |
+| `YDNS_USER`    | Your YDNS username                                 |
+| `YDNS_PASS`    | Your YDNS password                                 |
+| `YDNS_DOMAINS` | A `;` separated list of domains you want to update |
 
 ### Running
 
